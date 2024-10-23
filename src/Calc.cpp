@@ -16,7 +16,7 @@ int main() {
 
   std::cin >> num1;
 
-  std::cout >> "Enter your second number: ";
+  std::cout << "Enter your second number: ";
 
   std::cin >> num2;
 
@@ -29,6 +29,19 @@ int main() {
   case '-':
     result = num1 - num2;
     std::cout << "The subtraction of " << num1 << " and " << num2 << " is " << result << ".\n";
+    break;
+
+  case '*':
+    result =  num1 * num2;
+    std::cout << "The multiplication of " << num1 << " and " << num2 << " is " << result << ".\n";
+    break;
+
+  case '/':
+    result = num1 / num2;
+    std::cout << "The division of " << num1 << " and " << num2 << " is " << result << ".\n";
+    break;
+  default:
+    std::cout << "Please enter a valid operator.\n";
     break;
     
   }
