@@ -1,0 +1,23 @@
+#include <iostream>
+
+int main() {
+  char op;
+  double num1;
+  double num2;
+
+  std::cout << "************CALCULATOR************\n";
+
+  std::cout << "Enter the operation you would like to do (+,-,*,/): ";
+
+  std::cin >> op;
+
+  std::cout << "Enter the first number: ";
+
+  std::cin >> num1;
+
+  
+  std::cout << "**********************************";
+  
+
+  return 0;
+}
